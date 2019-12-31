@@ -16,7 +16,7 @@ const Footer = () => {
         <Grid columns={2} divided inverted stackable>
           <Grid.Row>
             <Grid.Column>
-              <Image src="public/logo.png" size="medium" centered />
+              <Image src="public/footer-logo.png" size="small" centered />
             </Grid.Column>
             <Grid.Column>
               <List>
@@ -28,7 +28,7 @@ const Footer = () => {
           </Grid.Row>
         </Grid>
         <Divider inverted section />
-        <List.Item>copyright <Icon name="copyright outline" /> 2019 Manu all rights reserved</List.Item>
+        <List.Item size="small">copyright <Icon name="copyright outline" /> 2019 Manu all rights reserved</List.Item>
       </Container>
     </Segment>
   );
